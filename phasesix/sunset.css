@@ -3,13 +3,13 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('fopen-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('../open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+       url('open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -17,6 +17,14 @@ body {
 	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.one {
+	content:url(one.png);
+}
+
+.two {
+	content:url(two.png);
 }
 
 .title {
@@ -31,6 +39,12 @@ body {
 	font-family: 'Open Sans';	
 }
 
+.coming {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Open Sans';
+}
+
 .card {
 	height: calc(100%/3);
 	width: calc(100%/3);
@@ -40,6 +54,7 @@ body {
 	width: 100%;
 	height: calc(100%/3);
 	background-color: white;
+	text-align: center;
 }
 
 .brown {
@@ -70,6 +85,7 @@ body {
 	width: calc(100%/3);
 	height: calc(100%/3);
 	background-color: white;
+	padding-top: 10px;
 }
 
 .card img {
@@ -84,6 +100,11 @@ body {
 
 img:hover {
 	opacity: 0.8;
+	cursor: pointer;
+}
+
+img:active {
+	transform: scale(0.98, 0.98);
 }
 
 
@@ -97,8 +118,21 @@ img:hover {
 		width: 50%;
 	}
 	
+	.title {
+		text-align: center;
+		font-size: 80px;
+		font-family: 'Open Sans';	
+	}
+
 	.soon {
 		width: 100%;
+		padding-top: 20px;
+	}
+	
+	.coming {
+		text-align: center;
+		font-size: 50px;
+		font-family: 'Open Sans';
 	}
 }
 
@@ -112,7 +146,20 @@ img:hover {
 		width: 100%;
 	}
 	
+	.title {
+		text-align: center;
+		font-size: 70px;
+		font-family: 'Open Sans';	
+	}
+	
 	.soon {
 		width: 100%;
+		padding-top: 40px;
+	}
+	
+	.coming {
+		text-align: center;
+		font-size: 40px;
+		font-family: 'Open Sans';
 	}
 }
