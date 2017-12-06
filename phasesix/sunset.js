@@ -6,6 +6,6 @@ function showImage(elem){
 	elem.classList.toggle("two");
 }
 
-function playCheer(e){
+function playSound(e){
 	document.getElementById("boop").play();
 }
