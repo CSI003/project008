@@ -8,7 +8,9 @@
 	</head>
 	
 	<body>
-	
+		
+		<!-- the "../" helps the command find the parent folder so it can locate the file you are specifying. if you have multiple folders and your images, fonts, and sounds are on your repository, then you will need to use this command line. -->
+		
 			<div class="card brown">
 				<img src="../coffee.png" id="coffee" onclick="showPrice(this)"/>
 			</div>
@@ -59,6 +61,7 @@
 			</div>
 			
 			<div class="soon" onclick="playSound(this)">
+				
 				<p class="coming">coming soon</p>
 				
 				<audio src="../boop.ogg" type="audio/ogg" id="boop"></audio>
