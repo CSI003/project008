@@ -12,12 +12,16 @@
        url('../open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
+ /* The fonts were derived from an older challenge of mine from the beginning of the year. The link to access this generator is: https://google-webfonts-helper.herokuapp.com/fonts */
+
 body {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
 }
+
+/* pricing images for javascript */
 
 .one {
 	content:url(../one.png);
@@ -26,6 +30,8 @@ body {
 .two {
 	content:url(../two.png);
 }
+
+/* text properties */
 
 .title {
 	text-align: center;
@@ -44,6 +50,8 @@ body {
 	font-size: 60px;
 	font-family: 'Open Sans';
 }
+
+/* main parts */
 
 .card {
 	height: calc(100%/3);
@@ -107,6 +115,7 @@ img:active {
 	transform: scale(0.98, 0.98);
 }
 
+/* tablet view */
 
 @media screen and (max-width: 900px) {
 
@@ -139,6 +148,8 @@ img:active {
 		padding-top: 65px;
 	}
 }
+
+/* phone view */
 
 @media screen and (max-width: 600px) {
 
