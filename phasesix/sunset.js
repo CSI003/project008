@@ -13,3 +13,6 @@ function playSound(e){
 }
 
 // this function is relative to the div class, "soon" because it triggers a sound file in the mainframe by grabbing its id and playing it once the div is clicked.
+
+
+//these functions were from the Stanley Cup and DBZ projects on eric's weebly: http://dvceric.weebly.com/computer-science.html 
